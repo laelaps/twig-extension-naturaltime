@@ -1,0 +1,27 @@
+{
+    "authors": [
+        {
+            "name": "Mateusz Charytoniuk",
+            "email": "mateusz.charytoniuk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Laelaps\\Twig\\Naturaltime": ""
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "name": "laelaps/twig-extension-naturaltime",
+    "require": {
+        "absolvent/php-object-repository": "~1.2,>=1.2.2",
+        "php": ">=5.4",
+        "twig/twig": "~1.13,>=1.13.1"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~0.2",
+        "phpunit/phpunit": "~3.7,>=3.7.21",
+        "sebastian/diff": "~1.0@dev"
+    },
+    "target-dir": "Laelaps/Twig/Naturaltime"
+}
